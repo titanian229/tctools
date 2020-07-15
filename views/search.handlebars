@@ -1,0 +1,39 @@
+<div class="ui divider"></div>
+<div class="ui container">
+
+
+    <h1 class="ui header">Search</h1>
+    {{!-- <div class="ui icon input loading">
+        <input type="text" placeholder="Search...">
+        <i class="search icon"></i>
+    </div> --}}
+    <div class="ui large icon input">
+        <input id="search-field" type="number" placeholder="Search...">
+        <i class="search icon"></i>
+    </div>
+    <div class="ui grid">
+        <div class="eight wide column">
+            <ul id="local-results">
+
+            </ul>
+        </div>
+        <div class="eight wide column">
+            <ul id="foreign-results">
+
+            </ul>
+        </div>
+    </div>
+
+
+    <style>
+        
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            margin: 0;
+        }
+    </style>
+
+</div>
